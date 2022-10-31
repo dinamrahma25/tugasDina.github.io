@@ -1,0 +1,87 @@
+ body{
+    background-image: url(sakura2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 80px;
+    background-color: blue;
+}
+header p{
+    margin: auto;
+    color: white;
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.article-content {
+    margin: 20px 0 20px 30px;   
+    width: 880px;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 20px;
+    background-color: white;
+}
+
+article h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16pt;
+}
+
+article h3{
+    padding-left: 35px;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+article a img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px lightgray;
+    margin: 10px auto;
+    display: flex;
+    width: 50%;
+}
+
+article h4{
+    font-size: 12pt;
+    font-weight: 500;
+    text-align: justify;
+    padding: 10px 35px;
+}
+
+article li{
+    margin-bottom: 8px;
+}
+
+footer{
+    height: 100px;
+    background-color: blue;
+}
+
+
+.footer-container ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.footer-container li{
+    padding: 20px 10px;
+}
+.footer-container a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer h1{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
